@@ -14,13 +14,15 @@ export default function Dashboard() {
 
           <Card className=" align-items-center mb-2 p-10" bg="primary" style={{ height: '30rem' }}>
             <Card.Header className="w-100 text-center">
-            this is project card
+            <h2>PROJECTS</h2>
             </Card.Header>
             <Card.Body>
-            <ListGroup variant="flush">
-        <ListGroup.Item>Cras justo odio</ListGroup.Item>
-        <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
-        <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
+            <ListGroup variant="flush" className="w-100">
+            <h4>
+        <ListGroup.Item className="bg-primary">PROJECT 1</ListGroup.Item>
+        <ListGroup.Item className="bg-primary">PROJECT 2</ListGroup.Item>
+        <ListGroup.Item className="bg-primary">PROJECT 3</ListGroup.Item>
+        </h4>
       </ListGroup>
             </Card.Body>
           </Card>
@@ -31,13 +33,15 @@ export default function Dashboard() {
 
           <Card className=" align-items-center mb-2" bg="secondary" style={{ height: '30rem' }}>
             <Card.Header className="w-100 text-center">
-            this is design card
+            <h2>DESIGNS</h2>
             </Card.Header>
             <Card.Body>
             <ListGroup variant="flush" >
-        <ListGroup.Item >Cras justo odio</ListGroup.Item>
-        <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
-        <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
+              <h4>
+        <ListGroup.Item className="bg-secondary">DESIGN 1</ListGroup.Item>
+        <ListGroup.Item className="bg-secondary">DESIGN 2</ListGroup.Item>
+        <ListGroup.Item className="bg-secondary">DESIGN 3</ListGroup.Item>
+        </h4>
       </ListGroup>
             </Card.Body>
           </Card>
@@ -51,13 +55,15 @@ export default function Dashboard() {
 
           <Card className=" align-items-center mb-2" bg="danger" style={{ height: '30rem' }}>
             <Card.Header className="w-100 text-center">
-            this is material card
+            <h2>MATERIAL</h2>
             </Card.Header>
             <Card.Body>
             <ListGroup variant="flush">
-        <ListGroup.Item>Cras justo odio</ListGroup.Item>
-        <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
-        <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
+            <h4>
+        <ListGroup.Item className="bg-danger">MATERIAL LIST 1</ListGroup.Item>
+        <ListGroup.Item className="bg-danger">MATERIAL LIST 2</ListGroup.Item>
+        <ListGroup.Item className="bg-danger">MATERIAL LIST 3</ListGroup.Item>
+        </h4>
       </ListGroup>
             </Card.Body>
           </Card>
@@ -66,13 +72,17 @@ export default function Dashboard() {
 
           <Card className=" align-items-center mb-2" bg="info" style={{ height: '30rem' }}>
             <Card.Header className="w-100 text-center">
-            this is labor card
+            <h2>LABOR</h2>
             </Card.Header>
             <Card.Body>
             <ListGroup variant="flush">
-        <ListGroup.Item>Cras justo odio</ListGroup.Item>
-        <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
-        <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
+            <h4>
+
+        <ListGroup.Item className="bg-info">LABOR HOURS 1</ListGroup.Item>
+        <ListGroup.Item className="bg-info">LABOR HOURS 1</ListGroup.Item>
+        <ListGroup.Item className="bg-info">LABOR HOURS 1</ListGroup.Item>
+        </h4>
+
       </ListGroup>
             </Card.Body>
           </Card>
@@ -85,13 +95,16 @@ export default function Dashboard() {
 
           <Card className=" align-items-center mb-2" bg="success" style={{ height: '30rem' }}>
           <Card.Header className="w-100 text-center">
-            this is closeout card
+          <h2>CLOSEOUTS</h2> 
             </Card.Header>
             <Card.Body>
             <ListGroup variant="flush">
-        <ListGroup.Item>Cras justo odio</ListGroup.Item>
-        <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
-        <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
+            <h4>
+
+        <ListGroup.Item className="bg-success">CLOSEOUTS 1</ListGroup.Item>
+        <ListGroup.Item className="bg-success">CLOSEOUTS 2</ListGroup.Item>
+        <ListGroup.Item className="bg-success">CLOSEOUTS 3</ListGroup.Item>
+        </h4>
       </ListGroup>
 </Card.Body>
           </Card>
