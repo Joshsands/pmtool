@@ -1,6 +1,8 @@
 import "./App.css";
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Dashboard from "./pages/Dashboard";
 
 // import Home from "./pages/Home";
 import Navigation from "./components/Nav";
@@ -11,9 +13,9 @@ function App() {
       <Router>
             <Navigation />
             <Routes>
-              {/* <Route exact path="/" element={<Home />} /> */}
+              <Route exact path="/" element={<Dashboard />} />
               {/* <Route path="/dashboard" element={<Dashboard /> } /> */}
-              {/* <Route path="/shop" element={<Shop />} /> */}
+              {/* <Route path="/projects" element={<Projects />} /> */}
             </Routes>
       </Router>
     </div>

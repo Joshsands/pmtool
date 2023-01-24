@@ -20,7 +20,7 @@ const Navigation = () => {
             <img
               src={logo}
               className="logo"
-              alt="Primary Fire Protection Logo"
+              alt="Project Manager Tool"
             />
           </Navbar.Brand>
 
@@ -32,22 +32,22 @@ const Navigation = () => {
 
 
             <Nav.Link as={Link} to="/">
-              Home
+              Dashboard
             </Nav.Link>
-            <Nav.Link as={Link} to="/shop">
-              Shop
+            <Nav.Link as={Link} to="/projects">
+              Projects
             </Nav.Link>
-            <Nav.Link as={Link} to="/estimator">
-              Quote
+            <Nav.Link as={Link} to="/design">
+              Design
             </Nav.Link>
-            <Nav.Link as={Link} to="/service">
-              Service
+            <Nav.Link as={Link} to="/material">
+              Material
             </Nav.Link>
-            <Nav.Link as={Link} to="/portfolio">
-              Portfolio
+            <Nav.Link as={Link} to="/labor">
+              Labor
             </Nav.Link>
-            <Nav.Link as={Link} to="/login">
-              Login
+            <Nav.Link as={Link} to="/closeout">
+              Closeout
             </Nav.Link>
           </Nav>
         </Container>
